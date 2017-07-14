@@ -8,10 +8,12 @@
 //remove the decimal part
 //return the remaining integer
 
-function rand(num){
+function rand(num) {
     //Returns a random integer between 0 and num 
-    var x = randumNum * Math.random();
-    var result = Math.floor(randomNum);
+    var x = num * Math.random();
+    var result = Math.floor(x);
     return result;
 }
 
+console.log(rand(6));
+console.log(rand(1000));
