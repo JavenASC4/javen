@@ -13,3 +13,9 @@ var shoeArray = {
     "Size": 9,
     "Price": 3200
 }
+
+
+
+var emptyArray = {
+    "": "", 
+}
