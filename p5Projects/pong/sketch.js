@@ -6,8 +6,6 @@ var yspeed = 12;
 
 function setup() {
     createCanvas(350, 350);
-    background(165);
-
 }
 
 function draw() {
@@ -30,7 +28,6 @@ function draw() {
 
     if (y > 350 || y < 0) {
         yspeed = -yspeed;
-        rect(mouseX, 390, 120, 20);
     }
-
+if  (mouseX)
 }
